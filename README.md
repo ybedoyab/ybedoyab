@@ -14,7 +14,7 @@
       <br/>
       <a href="https://www.linkedin.com/in/ybedoyab/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%231DA1F2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Yulian" height="30"/></a>
       <a href="mailto:ybedoyab@unal.edu.co" target="blank"><img align="center" src="https://img.shields.io/badge/gmail-EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Yulian" height="30"/></a>
-      <a href="https://twitter.com/ybedoyab" target="blank"><img align="center" src="https://img.shields.io/badge/twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Yulian" height="30"/></a>
+      <a href="https://twitter.com/ysbedoya" target="blank"><img align="center" src="https://img.shields.io/badge/twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Yulian" height="30"/></a>
       <br>
     </p>
   </samp>
