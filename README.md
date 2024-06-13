@@ -74,7 +74,7 @@
 </details>
 
 
-<details open>
+<details>
   <summary>😒 Random</summary>
 <div>
 <samp>
