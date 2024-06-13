@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">Hi, I'm Yulian ❤️</h1>
 <h4 align="center">A Mechanical Engineering Student ⚙️ and Math Tutor 👨‍🏫 at National University of Colombia 🏫.</h4>
-<img src="https://cdnb.artstation.com/p/assets/images/images/052/004/767/original/yurii-ray-06-gif-export-200.gif?1658731969" alt="gif" style="max-width: 400px; margin-top: 20px;">
+<img src="https://64.media.tumblr.com/c5543874b9cbe98da1d20945a45e989b/tumblr_o5a5r9Z9O71tvppquo1_r1_1280.gif" alt="gif" style="max-width: 400px; margin-top: 20px;">
 </div>
 
 -----
@@ -34,7 +34,7 @@
   <a href="https://github.com/ybedoyab" target="blank"><img align="center" src="https://github.com/ybedoyab/ybedoyab/actions/workflows/pages/pages-build-deployment/badge.svg" height="25" alt="page built"/></a>
   </p>
  <p align="center">
-  <a href="https://github.com/ybedoyab" target="blank"><img align="center" src="https://img.shields.io/github/license/ybedoyab/ybedoyab?color=purple&style=for-the-badge" height="25" alt="license" /></a>
+  <!-- <a href="https://github.com/ybedoyab" target="blank"><img align="center" src="https://img.shields.io/github/license/ybedoyab/ybedoyab?color=purple&style=for-the-badge" height="25" alt="license" /></a> -->
   <a href="https://github.com/ybedoyab"><img align="center" src="https://forthebadge.com/images/badges/works-on-my-machine.svg" height="25" alt="work on my machine" /></a>
  </p>
  </samp>
@@ -78,16 +78,11 @@
   <summary>😒 Random</summary>
 <div>
 <samp>
-<h2 align="center"> Just an ASCII art of me holding an umbrella </h2>
+<h2 align="center"> 💖 Love for you <3 </h2>
 </samp>
 </div>
 
 ```js
-</details>
-<br/>
-<samp>
-<h2 align="center"> ASCII Art of a Heart </h2>
-<pre style="text-align:center;">
 ⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣄⡀⠀⢿⡿⣁⠀⢆⡘⠤⡘⠠⢰⠃⡄⠂⠄⠀⠀⠀⠀⡀⡆⠌⢄⠀⠀⢠⡇⠂⡌⠄⠀⠀⠀⠀⠀⠀⠡⣖⠀⢃⠸⠀⠸⣟⡄⠘⡽⡜⡄⠀⠀⠀⠈⠦⠀⠀⠀⠸
 ⣿⣿⣿⣿⣿⣿⡿⠁⠈⢻⡝⣟⣷⡿⢁⠤⢀⠢⢌⠰⡀⠂⡟⠠⡄⠈⠀⠀⣀⠤⠐⣰⠌⡈⢄⠂⡡⣺⠄⡇⠰⠈⡄⢃⠰⢀⠰⢀⠂⢽⠂⢼⠐⡠⠄⣿⡼⡀⠱⢹⡰⠀⠀⠀⠀⠀⣆⠀⠀⠀
 ⣿⣿⣿⣿⣿⣿⠁⢄⠠⢀⣹⣞⡿⢁⢊⠰⢀⠎⡐⢂⠁⢳⠋⠴⠁⠀⣠⠞⡠⢁⣺⡇⠤⢁⠢⠘⢠⡿⢰⡏⠄⢃⡐⢈⠰⢈⠰⢸⠌⣸⠌⢺⡐⠤⢈⣽⣧⢩⡄⢉⢧⠡⠉⡍⠒⠤⣸⡀⠀⠀
@@ -123,9 +118,3 @@
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⡽⣾⣹⡞⣷⡽⣞⡽⣯⢿⣹⢯⣿⣿⣿⣿⣯⣿⡿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⢪⢿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⡽⣶⢯⡽⣞⣳⢯⡽⣞⣯⣽⢫⣿⡟⣿⣻⢿⡽⣿⣿⣿⣿⣻⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡈⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⢷⣛⡾⣽⣹⡽⢾⣹⠷⣞⣞⠿⣼⣿⡘⣯⣾⣿⢿⣹⢯⣟⡿⣿⢿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⠀⠀⠈⠻⣿⣿⣿⣿⣿
-</pre>
-</samp>
-<br/>
-</details> 
-
------
