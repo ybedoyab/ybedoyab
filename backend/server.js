@@ -1,9 +1,7 @@
 const express = require('express');
-const path = require(path);
+const path = require('path');
 const bodyParser = require('body-parser');
-const path = require(path);
 const cors = require('cors');
-const path = require(path);
 
 const app = express();
 const PORT = process.env.PORT || 3001; // Backend will run on port 3001
@@ -58,9 +56,9 @@ let portfolioData = {
     { id: 2, name: "Winner of Hackathon Diverso League 2024", description: "Focused on developing a solution for the benefit of the population with intellectual disabilities." },
     { id: 3, name: "Winner of Hackathon Blockchain ICP", description: "Focused on solving social problems with the use of Blockchain and Web3 technologies." },
     { id: 4, name: "Winner of OPL X 0G X CAMP AI+WEB3 & SOCIAL 2024", description: "Focused on solving social problems with the use of Blockchain and Web3 technologies from the Kii Global network." },
-    { id: 5, name: "Winner of Kickin’ It With Kiichain", description: "Focused on solving social problems with the use of Blockchain and Web3 technologies from the Kii Global network." },
+    { id: 5, name: "Winner of Kickin' It With Kiichain", description: "Focused on solving social problems with the use of Blockchain and Web3 technologies from the Kii Global network." },
     { id: 6, name: "Finalist Regional Mathematics Olympiads 2022", description: "Event organized by Universidad del Valle in Cali that brings together students from all over the country to solve problems related to mathematics." },
-    { id: 7, name: "2nd Place Expoingeniería 2023", description: "Event focused on cybersecurity with a “Capture the Flag” theme." },
+    { id: 7, name: "2nd Place Expoingeniería 2023", description: "Event focused on cybersecurity with a Capture the Flag theme." },
     { id: 8, name: "Participant ICPC 2024", description: "International Collegiate Programming Contest, qualified after a full year of RPCs." },
     { id: 9, name: "2nd Place NASA SpaceApps Challenge 2023", description: "Event focused on solving challenges proposed by NASA, obtained second place at the Antioquia level." },
     { id: 10, name: "Novice Champion CHIDO 2024", description: "International virtual competitive debate event organized by Cornell University." },
@@ -257,5 +255,5 @@ if (process.env.NODE_ENV === 'production') {
 }
 */
 app.listen(PORT, () => {
-  console.log(\`Server is running on http://localhost:\${PORT}\`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });

@@ -67,11 +67,11 @@ const ExperienceManager = () => {
   const handleChange = (e) => { const { name, value } = e.target; setCurrentExperience(prev => ({ ...prev, [name]: value })); };
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = isEditing ? \`http://localhost:3001/api/experience/\${editId}\` : 'http://localhost:3001/api/experience';
+    const url = isEditing ? `http://localhost:3001/api/experience/${editId}` : 'http://localhost:3001/api/experience';
     const method = isEditing ? 'put' : 'post';
     axios[method](url, currentExperience)
-      .then(() => { fetchExperiences(); setMessage(\`Experience \${isEditing ? 'updated' : 'added'} successfully!\`); resetForm(); })
-      .catch(error => { console.error(\`Error \${isEditing ? 'updating' : 'adding'} experience:\`, error); setMessage(\`Failed to \${isEditing ? 'update' : 'add'} experience.\`); })
+      .then(() => { fetchExperiences(); setMessage(`Experience ${isEditing ? 'updated' : 'added'} successfully!`); resetForm(); })
+      .catch(error => { console.error(`Error ${isEditing ? 'updating' : 'adding'} experience:`, error); setMessage(`Failed to ${isEditing ? 'update' : 'add'} experience.`); })
       .finally(() => setTimeout(() => setMessage(''), 3000));
   };
   const handleEdit = (exp) => {
@@ -80,7 +80,7 @@ const ExperienceManager = () => {
   };
   const handleDelete = (id) => {
     if (window.confirm('Are you sure you want to delete this experience?')) {
-      axios.delete(\`http://localhost:3001/api/experience/\${id}\`)
+      axios.delete(`http://localhost:3001/api/experience/${id}`)
         .then(() => { fetchExperiences(); setMessage('Experience deleted successfully!'); })
         .catch(error => { console.error('Error deleting experience:', error); setMessage('Failed to delete experience.'); })
         .finally(() => setTimeout(() => setMessage(''), 3000));
@@ -126,11 +126,11 @@ const ProjectsManager = () => {
   const handleChange = (e) => { const { name, value } = e.target; setCurrentProject(prev => ({ ...prev, [name]: value })); };
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = isEditing ? \`http://localhost:3001/api/projects/\${editId}\` : 'http://localhost:3001/api/projects';
+    const url = isEditing ? `http://localhost:3001/api/projects/${editId}` : 'http://localhost:3001/api/projects';
     const method = isEditing ? 'put' : 'post';
     axios[method](url, currentProject)
-      .then(() => { fetchProjects(); setMessage(\`Project \${isEditing ? 'updated' : 'added'} successfully!\`); resetForm(); })
-      .catch(error => { console.error(\`Error \${isEditing ? 'updating' : 'adding'} project:\`, error); setMessage(\`Failed to \${isEditing ? 'update' : 'add'} project.\`); })
+      .then(() => { fetchProjects(); setMessage(`Project ${isEditing ? 'updated' : 'added'} successfully!`); resetForm(); })
+      .catch(error => { console.error(`Error ${isEditing ? 'updating' : 'adding'} project:`, error); setMessage(`Failed to ${isEditing ? 'update' : 'add'} project.`); })
       .finally(() => setTimeout(() => setMessage(''), 3000));
   };
   const handleEdit = (proj) => {
@@ -139,7 +139,7 @@ const ProjectsManager = () => {
   };
   const handleDelete = (id) => {
     if (window.confirm('Are you sure you want to delete this project?')) {
-      axios.delete(\`http://localhost:3001/api/projects/\${id}\`)
+      axios.delete(`http://localhost:3001/api/projects/${id}`)
         .then(() => { fetchProjects(); setMessage('Project deleted successfully!'); })
         .catch(error => { console.error('Error deleting project:', error); setMessage('Failed to delete project.'); })
         .finally(() => setTimeout(() => setMessage(''), 3000));
@@ -183,11 +183,11 @@ const EducationManager = () => {
   const handleChange = (e) => { const { name, value } = e.target; setCurrentEducation(prev => ({ ...prev, [name]: value })); };
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = isEditing ? \`http://localhost:3001/api/education/\${editId}\` : 'http://localhost:3001/api/education';
+    const url = isEditing ? `http://localhost:3001/api/education/${editId}` : 'http://localhost:3001/api/education';
     const method = isEditing ? 'put' : 'post';
     axios[method](url, currentEducation)
-      .then(() => { fetchEducations(); setMessage(\`Education \${isEditing ? 'updated' : 'added'} successfully!\`); resetForm(); })
-      .catch(error => { console.error(\`Error \${isEditing ? 'updating' : 'adding'} education:\`, error); setMessage(\`Failed to \${isEditing ? 'update' : 'add'} education.\`); })
+      .then(() => { fetchEducations(); setMessage(`Education ${isEditing ? 'updated' : 'added'} successfully!`); resetForm(); })
+      .catch(error => { console.error(`Error ${isEditing ? 'updating' : 'adding'} education:`, error); setMessage(`Failed to ${isEditing ? 'update' : 'add'} education.`); })
       .finally(() => setTimeout(() => setMessage(''), 3000));
   };
   const handleEdit = (edu) => {
@@ -196,7 +196,7 @@ const EducationManager = () => {
   };
   const handleDelete = (id) => {
     if (window.confirm('Are you sure you want to delete this education entry?')) {
-      axios.delete(\`http://localhost:3001/api/education/\${id}\`)
+      axios.delete(`http://localhost:3001/api/education/${id}`)
         .then(() => { fetchEducations(); setMessage('Education entry deleted successfully!'); })
         .catch(error => { console.error('Error deleting education entry:', error); setMessage('Failed to delete education entry.'); })
         .finally(() => setTimeout(() => setMessage(''), 3000));
