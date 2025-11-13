@@ -1,3 +1,368 @@
-<h1>Hellooo</h1>
-<h2>So, apparently, I just have to do this?</h2>
-<h3>Anyways, Ill start tomorrow</h3>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yulian Bedoya - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">YB</div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">Sobre Mí</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Yulian Bedoya</h1>
+            <p class="hero-subtitle">Ingeniero Mecánico · Desarrollador Full Stack · Blockchain Enthusiast</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-label">📍</span>
+                    <span>Medellín, Colombia</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">📞</span>
+                    <span>+57 321 805 9894</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">✉️</span>
+                    <a href="mailto:ysbedoya0@gmail.com">ysbedoya0@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">💼</span>
+                    <a href="https://linkedin.com/in/ybedoyab" target="_blank">linkedin.com/in/ybedoyab</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">💻</span>
+                    <a href="https://github.com/ybedoyab" target="_blank">github.com/ybedoyab</a>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="info-block">
+                <h3 class="block-title">Educación</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">Universidad Nacional de Colombia (UNAL)</h4>
+                            <p class="timeline-location">Medellín, CO</p>
+                            <p class="timeline-description">Ingeniería Mecánica – 2023 - Actualidad</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">Servicio Nacional de Aprendizaje (SENA)</h4>
+                            <p class="timeline-location">Cartago, CO</p>
+                            <p class="timeline-description">Técnico en Programación de Software – 2020 - 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">Institución Educativa Gabo</h4>
+                            <p class="timeline-location">Cartago, CO</p>
+                            <p class="timeline-description">Bachillerato Académico – 2022</p>
+                            <p class="timeline-note">Presidente del Consejo Estudiantil y Personero</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="info-block">
+                <h3 class="block-title">Experiencia Laboral</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">Koral Advanced Technology</h4>
+                            <p class="timeline-location">Remoto · Mar 2025 – Actualidad</p>
+                            <p class="timeline-role">Ingeniero de Datos, ETL y DevOps</p>
+                            <ul class="timeline-list">
+                                <li>Diseño e implementación de flujos ETL en Pentaho, integrando y transformando datos de varias fuentes para procesos analíticos y operativos.</li>
+                                <li>Automatización de validaciones con scripts Python y .NET; mejora de calidad de datos.</li>
+                                <li>Desarrollo de APIs backend en .NET y frontend en Vue; autenticación con Keycloak y gestión de secretos con HashiCorp Vault.</li>
+                                <li>Despliegue de aplicaciones con Docker sobre Windows Server, facilitando portabilidad y rollback.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">Universidad Nacional de Colombia – DINARA</h4>
+                            <p class="timeline-location">Remoto · Sep 2024 – Jun 2025</p>
+                            <p class="timeline-role">Desarrollador de Software, Sistema de Información Académica (SIA)</p>
+                            <ul class="timeline-list">
+                                <li>Participación en el desarrollo y mejora del Sistema de Información Académica mediante la implementación de módulos satélite con arquitectura de micro-frontends usando Single-spa, React y Material UI.</li>
+                                <li>Desarrollo completo del micro-frontend para la gestión de contenido de la landing page institucional.</li>
+                                <li>Implementación del panel de administración, permitiendo la gestión de roles y usuarios.</li>
+                                <li>Desarrollo del micro-frontend de perfil docente, integrando datos académicos y administrativos.</li>
+                                <li>Integración con servicios backend existentes, asegurando interoperabilidad con el ecosistema del SIA.</li>
+                                <li>Generación de documentación técnica, manuales de usuario e informes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">Universidad Nacional – Facultad de Minas</h4>
+                            <p class="timeline-location">Medellín, CO · Feb 2024 – Actualidad</p>
+                            <p class="timeline-role">Tutor de Matemáticas, Programa MinasContigo</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">Instituto de Inglés de Cartago</h4>
+                            <p class="timeline-location">Cartago, CO · Feb 2022 – Nov 2022</p>
+                            <p class="timeline-role">Profesor de Inglés, Nivel Intermedio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="info-block">
+                <h3 class="block-title">Habilidades, Actividades e Intereses</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4 class="skill-title">Idiomas</h4>
+                        <p>Español (nativo), Inglés C1</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4 class="skill-title">Habilidades Técnicas</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue</span>
+                            <span class="skill-tag">Single-spa</span>
+                            <span class="skill-tag">Tailwind</span>
+                            <span class="skill-tag">MUI</span>
+                            <span class="skill-tag">Node</span>
+                            <span class="skill-tag">Nest</span>
+                            <span class="skill-tag">.NET 8</span>
+                            <span class="skill-tag">C/C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Solidity</span>
+                            <span class="skill-tag">Smart Contracts</span>
+                            <span class="skill-tag">Hardhat</span>
+                            <span class="skill-tag">Web3.js</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                            <span class="skill-tag">Google Cloud Run</span>
+                            <span class="skill-tag">Vault</span>
+                            <span class="skill-tag">Keycloak</span>
+                            <span class="skill-tag">BigQuery</span>
+                            <span class="skill-tag">Pentaho ETL</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">LangChain</span>
+                            <span class="skill-tag">Gemini GenAI</span>
+                            <span class="skill-tag">IA/ML</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4 class="skill-title">Habilidades Blandas</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Oratoria</span>
+                            <span class="skill-tag">Liderazgo</span>
+                            <span class="skill-tag">Organización</span>
+                            <span class="skill-tag">Comunicación</span>
+                            <span class="skill-tag">Adaptabilidad</span>
+                            <span class="skill-tag">Pensamiento Crítico</span>
+                            <span class="skill-tag">Gestión del Tiempo</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4 class="skill-title">Actividades</h4>
+                        <p>GitHub Campus Expert · UNalgoritmo (programación competitiva) · UNastro · Debate Rhetor · Voluntariado tech en comunidades IA y Blockchain</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4 class="skill-title">Intereses</h4>
+                        <p>Programación competitiva, IA aplicada a ingeniería, Blockchain/Web3, cloud-native DevOps, astronomía, debate académico</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="info-block">
+                <h3 class="block-title">Logros Destacados</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🥇</span>
+                        <div class="achievement-content">
+                            <h4>1. Lugar nacional</h4>
+                            <p>Huawei ICT Competition 2025 (Cloud Track)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🏆</span>
+                        <div class="achievement-content">
+                            <h4>Ganador</h4>
+                            <p>DeepPunk AI Hackathon 2025 con el agente Drafty (UNAL + DeepPunkAI)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🏆</span>
+                        <div class="achievement-content">
+                            <h4>Ganador</h4>
+                            <p>Hackathon Blockchain ICP 2024 (Blockchain y Web3)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🏆</span>
+                        <div class="achievement-content">
+                            <h4>Ganador</h4>
+                            <p>Hackathon Diverso League 2024 (discapacidad intelectual)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🏆</span>
+                        <div class="achievement-content">
+                            <h4>Ganador</h4>
+                            <p>OPL X OG X CAMP AI+WEB3 SOCIAL 2024 (más de 500 participantes)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🏆</span>
+                        <div class="achievement-content">
+                            <h4>Ganador</h4>
+                            <p>Kickin' It With Kiichain 2024 (Blockchain y Web3, red de Kii Global)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🥈</span>
+                        <div class="achievement-content">
+                            <h4>2. Lugar</h4>
+                            <p>NASA SpaceApps Challenge 2023 (nivel Antioquia)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🥈</span>
+                        <div class="achievement-content">
+                            <h4>2. Lugar</h4>
+                            <p>Expoingeniería 2023 (ciberseguridad, Capture the Flag)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">🥈</span>
+                        <div class="achievement-content">
+                            <h4>2. Lugar</h4>
+                            <p>Hackathon eSummit 2023 (ventas en e-commerce)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">👑</span>
+                        <div class="achievement-content">
+                            <h4>Campeón Novato</h4>
+                            <p>CHIDO 2024 (debate competitivo internacional, Univ. Cornell)</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-badge">⭐</span>
+                        <div class="achievement-content">
+                            <h4>Proyecto Destacado</h4>
+                            <p>PrinciPET3D (Fundamentos de proyectos en ingeniería, UNAL)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="info-block">
+                <h3 class="block-title">Certificaciones y Cursos</h3>
+                <div class="certifications-grid">
+                    <div class="cert-category">
+                        <h4 class="cert-title">Programación y Software</h4>
+                        <ul class="cert-list">
+                            <li>Fundamentos de Programación</li>
+                            <li>Fundamentos en IA</li>
+                            <li>Programación Web</li>
+                            <li>JavaScript Essentials</li>
+                            <li>Programación para ML y Emprendimiento</li>
+                            <li>Intro a Software Engineering</li>
+                            <li>App Inventor (desarrollo móvil)</li>
+                            <li>C++: estructura y POO</li>
+                        </ul>
+                    </div>
+                    <div class="cert-category">
+                        <h4 class="cert-title">Datos e Inteligencia Artificial</h4>
+                        <ul class="cert-list">
+                            <li>Data Science e IA</li>
+                            <li>Análisis de datos con Python</li>
+                            <li>IA para productividad</li>
+                            <li>Procesamiento de imágenes</li>
+                            <li>Power BI</li>
+                            <li>Big Data y optimización</li>
+                        </ul>
+                    </div>
+                    <div class="cert-category">
+                        <h4 class="cert-title">Blockchain y Seguridad</h4>
+                        <ul class="cert-list">
+                            <li>Smart Contracts</li>
+                            <li>Blockchain Basics</li>
+                            <li>De cero a Blockchain</li>
+                            <li>Ciberseguridad</li>
+                            <li>Controles y seguridad informática</li>
+                        </ul>
+                    </div>
+                    <div class="cert-category">
+                        <h4 class="cert-title">Gestión, Ética y Liderazgo</h4>
+                        <ul class="cert-list">
+                            <li>Gestión de Proyectos (Fund.)</li>
+                            <li>Ser Líder 4.0</li>
+                            <li>Competencias laborales</li>
+                            <li>Ética profesional</li>
+                            <li>Toma de decisiones</li>
+                            <li>Escritura académica</li>
+                            <li>Resolución de problemas</li>
+                        </ul>
+                    </div>
+                    <div class="cert-category">
+                        <h4 class="cert-title">Otros</h4>
+                        <ul class="cert-list">
+                            <li>Marketing 360 y Digital</li>
+                            <li>Metalurgia y clasificación de metales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects will be dynamically loaded from projects-data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Yulian Bedoya. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="projects-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
